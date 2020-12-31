@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Everts\\AndroidStudioProjects\\ReignDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_article_list.xml",
+        "source": "C:\\Users\\Everts\\AndroidStudioProjects\\ReignDemo\\app\\src\\main\\res\\layout\\fragment_article_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Everts\\AndroidStudioProjects\\ReignDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_article_list_item.xml",
+        "source": "C:\\Users\\Everts\\AndroidStudioProjects\\ReignDemo\\app\\src\\main\\res\\layout\\view_article_list_item.xml"
+    }
+]

@@ -1,4 +1,4 @@
-#Thu Dec 31 17:12:54 CST 2020
+#Thu Dec 31 19:56:32 CST 2020
 base.0=C\:\\Users\\Everts\\AndroidStudioProjects\\ReignDemo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -18,7 +18,7 @@ class ArticleListViewHolder(private val dataBinding: ViewDataBinding)
         val date = Date(itemData.created_at_i)
         itemData.elapsedTime = "- ${TimeHelper.getTimeAgo(date)}"
 
-        if (itemData.title != null) itemData.story_title = itemData.title
+        if (itemData.title != null) itemData.story_title = itemData.title!!
 
         dataBinding.setVariable(BR.itemData, itemData)
         dataBinding.executePendingBindings()

@@ -36,10 +36,6 @@
         </activity>
 
         <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.evertschavez.reigndemo.com.squareup.picasso"
-            android:exported="false" />
-        <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
             android:authorities="com.evertschavez.reigndemo.workmanager-init"
             android:directBootAware="false"

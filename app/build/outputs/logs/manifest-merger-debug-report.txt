@@ -25,7 +25,6 @@ MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] C:\Users\Everts\.g
 MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\fc074c2180bd96985b474fe302fca60d\AndroidManifest.xml:2:1-13:12
 MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\51a00903b49ea73a3843d04e7b6db903\AndroidManifest.xml:2:1-13:12
 MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\60e4106007917d6fb9eaabcc7706bd2e\AndroidManifest.xml:2:1-13:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:2:1-14:12
 MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\b69eb0e21e89e5cbbb8fb52491efc755\AndroidManifest.xml:17:1-22:12
 MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\33f7bb3fcaf9c4f2967bce388ed56067\AndroidManifest.xml:2:1-13:12
 MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\4a451a02439c9742bed8def4f10f8ded\AndroidManifest.xml:2:1-11:12
@@ -62,7 +61,6 @@ MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Everts\.gradle
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\73fca92011cdb9dfc9a3bc416668f133\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\162b20468cb938fba872acc3e62afb2e\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\0e068a883344794306ad8dc49617f23f\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\cb4e206a72dd86fba37d2ae6a0ef13e9\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\81b6e5b65acb7aff8294a8e71b399b85\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\25a0a24f80f0909c51fd882c179420a7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d9779d57e530552d276f926322ad3063\AndroidManifest.xml:17:1-22:12
@@ -132,8 +130,6 @@ MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Everts\
 MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\51a00903b49ea73a3843d04e7b6db903\AndroidManifest.xml:11:5-20
 MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\60e4106007917d6fb9eaabcc7706bd2e\AndroidManifest.xml:11:5-20
 MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\60e4106007917d6fb9eaabcc7706bd2e\AndroidManifest.xml:11:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:7:5-12:19
 MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\33f7bb3fcaf9c4f2967bce388ed56067\AndroidManifest.xml:11:5-20
 MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\33f7bb3fcaf9c4f2967bce388ed56067\AndroidManifest.xml:11:5-20
 MERGED from [android.arch.work:work-runtime:1.0.1] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\621311b1acc4e9e01cee9ff4c2297767\AndroidManifest.xml:27:5-121:19
@@ -230,8 +226,6 @@ MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Everts\
 MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\51a00903b49ea73a3843d04e7b6db903\AndroidManifest.xml:7:5-9:41
 MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\60e4106007917d6fb9eaabcc7706bd2e\AndroidManifest.xml:7:5-9:41
 MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\60e4106007917d6fb9eaabcc7706bd2e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:5:5-44
 MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\b69eb0e21e89e5cbbb8fb52491efc755\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\b69eb0e21e89e5cbbb8fb52491efc755\AndroidManifest.xml:20:5-44
 MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\33f7bb3fcaf9c4f2967bce388ed56067\AndroidManifest.xml:7:5-9:41
@@ -304,8 +298,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\162b20468cb938fba872acc3e62afb2e\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\0e068a883344794306ad8dc49617f23f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\0e068a883344794306ad8dc49617f23f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\cb4e206a72dd86fba37d2ae6a0ef13e9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\cb4e206a72dd86fba37d2ae6a0ef13e9\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\81b6e5b65acb7aff8294a8e71b399b85\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\81b6e5b65acb7aff8294a8e71b399b85\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\25a0a24f80f0909c51fd882c179420a7\AndroidManifest.xml:20:5-44
@@ -340,14 +332,6 @@ INJECTED from C:\Users\Everts\AndroidStudioProjects\ReignDemo\app\src\main\Andro
 		INJECTED from C:\Users\Everts\AndroidStudioProjects\ReignDemo\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Everts\AndroidStudioProjects\ReignDemo\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Everts\AndroidStudioProjects\ReignDemo\app\src\main\AndroidManifest.xml
-provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:8:9-11:40
-	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:10:13-72
-	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:11:13-37
-	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\d0b569593957052073ebc1404b4c5aee\AndroidManifest.xml:9:13-64
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [android.arch.work:work-runtime:1.0.1] C:\Users\Everts\.gradle\caches\transforms-2\files-2.1\621311b1acc4e9e01cee9ff4c2297767\AndroidManifest.xml:23:5-68
 	android:name

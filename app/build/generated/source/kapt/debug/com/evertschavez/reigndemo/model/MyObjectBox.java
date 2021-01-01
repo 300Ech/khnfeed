@@ -20,12 +20,13 @@ public class MyObjectBox {
     public static BoxStoreBuilder builder() {
         BoxStoreBuilder builder = new BoxStoreBuilder(getModel());
         builder.entity(DeletedArticle_.__INSTANCE);
+        builder.entity(Item_.__INSTANCE);
         return builder;
     }
 
     private static byte[] getModel() {
         ModelBuilder modelBuilder = new ModelBuilder();
-        modelBuilder.lastEntityId(1, 6860804878559336686L);
+        modelBuilder.lastEntityId(2, 8767940570769972026L);
         modelBuilder.lastIndexId(0, 0L);
         modelBuilder.lastRelationId(0, 0L);
 
@@ -35,6 +36,29 @@ public class MyObjectBox {
         entityBuilder.id(1, 6860804878559336686L).lastPropertyId(1, 3959735796176503297L);
         entityBuilder.property("id", PropertyType.Long).id(1, 3959735796176503297L)
             .flags(PropertyFlags.ID | PropertyFlags.ID_SELF_ASSIGNABLE | PropertyFlags.NOT_NULL);
+        entityBuilder.entityDone();
+
+        entityBuilder = modelBuilder.entity("Item");
+        entityBuilder.id(2, 8767940570769972026L).lastPropertyId(15, 1793897847292471365L);
+        entityBuilder.property("objectID", PropertyType.Long).id(1, 218936634270586521L)
+            .flags(PropertyFlags.ID | PropertyFlags.ID_SELF_ASSIGNABLE | PropertyFlags.NOT_NULL);
+        entityBuilder.property("created_at", PropertyType.String).id(2, 3996851670509478308L);
+        entityBuilder.property("title", PropertyType.String).id(3, 2897063357465023464L);
+        entityBuilder.property("url", PropertyType.String).id(4, 464148050209470346L);
+        entityBuilder.property("author", PropertyType.String).id(5, 6442728392771522872L);
+        entityBuilder.property("points", PropertyType.String).id(6, 64637469126906318L);
+        entityBuilder.property("story_text", PropertyType.String).id(7, 1451407118680284682L);
+        entityBuilder.property("comment_text", PropertyType.String).id(8, 702136401374603623L);
+        entityBuilder.property("num_comments", PropertyType.String).id(9, 7941435239900855065L);
+        entityBuilder.property("story_id", PropertyType.Long).id(10, 2884909210653753198L)
+            .flags(PropertyFlags.NOT_NULL);
+        entityBuilder.property("story_title", PropertyType.String).id(11, 4857918460875268927L);
+        entityBuilder.property("story_url", PropertyType.String).id(12, 4875104128554093804L);
+        entityBuilder.property("parent_id", PropertyType.Long).id(13, 7591469265657904203L)
+            .flags(PropertyFlags.NOT_NULL);
+        entityBuilder.property("created_at_i", PropertyType.Long).id(14, 4486967126132351447L)
+            .flags(PropertyFlags.NOT_NULL);
+        entityBuilder.property("elapsedTime", PropertyType.String).id(15, 1793897847292471365L);
         entityBuilder.entityDone();
 
         return modelBuilder.build();

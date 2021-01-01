@@ -6,7 +6,7 @@ import java.lang.System;
 public final class Constants {
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String BASE_URL = "https://hn.algolia.com/";
-    public static final int REQUEST_TIMEOUT = 10;
+    public static final int REQUEST_TIMEOUT = 5;
     public static final boolean IF_DEBUG = true;
     public static final com.evertschavez.reigndemo.view.utils.Constants.Companion Companion = null;
     

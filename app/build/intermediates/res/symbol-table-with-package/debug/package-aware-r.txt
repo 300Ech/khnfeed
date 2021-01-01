@@ -1286,6 +1286,7 @@ id radio
 id right
 id right_icon
 id right_side
+id rootView
 id rvArticles
 id save_image_matrix
 id save_non_transition_alpha

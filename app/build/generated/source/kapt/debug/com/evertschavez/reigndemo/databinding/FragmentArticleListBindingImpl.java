@@ -13,7 +13,8 @@ public class FragmentArticleListBindingImpl extends FragmentArticleListBinding  
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
         sIncludes = null;
-        sViewsWithIds = null;
+        sViewsWithIds = new android.util.SparseIntArray();
+        sViewsWithIds.put(R.id.swipeContainer, 3);
     }
     // views
     @NonNull
@@ -24,17 +25,18 @@ public class FragmentArticleListBindingImpl extends FragmentArticleListBinding  
     // Inverse Binding Event Handlers
 
     public FragmentArticleListBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private FragmentArticleListBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
+            , (android.widget.RelativeLayout) bindings[0]
             , (androidx.recyclerview.widget.RecyclerView) bindings[1]
-            , (androidx.swiperefreshlayout.widget.SwipeRefreshLayout) bindings[0]
+            , (androidx.swiperefreshlayout.widget.SwipeRefreshLayout) bindings[3]
             );
         this.mboundView2 = (android.widget.ProgressBar) bindings[2];
         this.mboundView2.setTag(null);
+        this.rootView.setTag(null);
         this.rvArticles.setTag(null);
-        this.swipeContainer.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();

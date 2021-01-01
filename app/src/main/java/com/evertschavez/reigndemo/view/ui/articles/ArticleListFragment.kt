@@ -43,6 +43,9 @@ class ArticleListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         fetchData()
 
+        setupAdapter()
+        setupObservers()
+
         swipeContainer.setOnRefreshListener {
             fetchData()
             swipeContainer.isRefreshing = false
@@ -66,9 +69,6 @@ class ArticleListFragment : Fragment() {
 
     private fun fetchData() {
         viewDataBinding.viewmodel?.fetchArticleList()
-
-        setupAdapter()
-        setupObservers()
     }
 
     private fun setupObservers() {

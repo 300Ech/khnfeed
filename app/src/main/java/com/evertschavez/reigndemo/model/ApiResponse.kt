@@ -1,5 +1,8 @@
 package com.evertschavez.reigndemo.model
 
+import io.objectbox.annotation.Entity
+import io.objectbox.annotation.Id
+
 data class HnResponse(
     val nbHits: Int,
     val page: Int,
@@ -12,20 +15,22 @@ data class HnResponse(
     val hits: List<Item>
 )
 
+@Entity
 data class Item(
-    val objectID: Long,
-    val created_at: String,
-    val title: String?,
-    val url: String?,
-    val author: String,
-    val points: String?,
-    val story_text: String?,
-    val comment_text: String,
-    val num_comments: String?,
-    val story_id: Long,
-    var story_title: String,
-    val story_url: String?,
-    val parent_id: Long,
-    val created_at_i: Long,
-    var elapsedTime: String
+    @Id(assignable = true)
+    var objectID: Long = 0,
+    var created_at: String = "",
+    var title: String? = null,
+    var url: String? = null,
+    var author: String = "",
+    var points: String? = null,
+    var story_text: String? = null,
+    var comment_text: String? = null,
+    var num_comments: String? = null,
+    var story_id: Long = 0,
+    var story_title: String? = "",
+    var story_url: String? = null,
+    var parent_id: Long = 0,
+    var created_at_i: Long = 0,
+    var elapsedTime: String = ""
 )

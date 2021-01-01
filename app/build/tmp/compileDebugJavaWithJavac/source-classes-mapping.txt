@@ -32,6 +32,9 @@ com/evertschavez/reigndemo/model/DeletedArticleCursor.java
  com.evertschavez.reigndemo.model.DeletedArticleCursor$Factory
 androidx/print/R.java
  androidx.print.R
+com/evertschavez/reigndemo/model/Item_.java
+ com.evertschavez.reigndemo.model.Item_
+ com.evertschavez.reigndemo.model.Item_$ItemIdGetter
 androidx/vectordrawable/R.java
  androidx.vectordrawable.R
  androidx.vectordrawable.R$attr
@@ -106,8 +109,8 @@ androidx/navigation/R.java
  androidx.navigation.R$string
  androidx.navigation.R$style
  androidx.navigation.R$styleable
-com/evertschavez/reigndemo/databinding/FragmentArticleListBindingImpl.java
- com.evertschavez.reigndemo.databinding.FragmentArticleListBindingImpl
+org/jetbrains/anko/generated/sdk27/R.java
+ org.jetbrains.anko.generated.sdk27.R
 org/jetbrains/anko/supportV4/R.java
  org.jetbrains.anko.supportV4.R
  org.jetbrains.anko.supportV4.R$attr
@@ -250,8 +253,8 @@ org/jetbrains/anko/generated/appcompatV7/R.java
  org.jetbrains.anko.generated.appcompatV7.R$styleable
 androidx/sqlite/db/framework/R.java
  androidx.sqlite.db.framework.R
-com/evertschavez/reigndemo/databinding/FragmentArticleListBinding.java
- com.evertschavez.reigndemo.databinding.FragmentArticleListBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
 androidx/media/R.java
  androidx.media.R
  androidx.media.R$attr
@@ -404,8 +407,6 @@ org/jetbrains/anko/platform/R.java
 com/evertschavez/reigndemo/model/DeletedArticle_.java
  com.evertschavez.reigndemo.model.DeletedArticle_
  com.evertschavez.reigndemo.model.DeletedArticle_$DeletedArticleIdGetter
-androidx/exifinterface/R.java
- androidx.exifinterface.R
 org/jetbrains/anko/generated/anko/R.java
  org.jetbrains.anko.generated.anko.R
  org.jetbrains.anko.generated.anko.R$anim
@@ -576,8 +577,9 @@ androidx/viewpager/R.java
  androidx.viewpager.R$styleable
 androidx/localbroadcastmanager/R.java
  androidx.localbroadcastmanager.R
-com/squareup/picasso/R.java
- com.squareup.picasso.R
+com/evertschavez/reigndemo/model/ItemCursor.java
+ com.evertschavez.reigndemo.model.ItemCursor
+ com.evertschavez.reigndemo.model.ItemCursor$Factory
 org/jetbrains/anko/generated/commons/R.java
  org.jetbrains.anko.generated.commons.R
 org/jetbrains/anko/generated/appcompatV7Common/R.java
@@ -608,7 +610,7 @@ androidx/room/R.java
  androidx.room.R$styleable
 com/evertschavez/reigndemo/databinding/ViewArticleListItemBinding.java
  com.evertschavez.reigndemo.databinding.ViewArticleListItemBinding
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-org/jetbrains/anko/generated/sdk27/R.java
- org.jetbrains.anko.generated.sdk27.R
+com/evertschavez/reigndemo/databinding/FragmentArticleListBindingImpl.java
+ com.evertschavez.reigndemo.databinding.FragmentArticleListBindingImpl
+com/evertschavez/reigndemo/databinding/FragmentArticleListBinding.java
+ com.evertschavez.reigndemo.databinding.FragmentArticleListBinding

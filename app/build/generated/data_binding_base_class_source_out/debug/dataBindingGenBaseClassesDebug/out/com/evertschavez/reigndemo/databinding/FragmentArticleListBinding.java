@@ -3,6 +3,7 @@ package com.evertschavez.reigndemo.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
@@ -16,6 +17,9 @@ import java.lang.Object;
 
 public abstract class FragmentArticleListBinding extends ViewDataBinding {
   @NonNull
+  public final RelativeLayout rootView;
+
+  @NonNull
   public final RecyclerView rvArticles;
 
   @NonNull
@@ -25,8 +29,9 @@ public abstract class FragmentArticleListBinding extends ViewDataBinding {
   protected ArticleListViewModel mViewmodel;
 
   protected FragmentArticleListBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView rvArticles, SwipeRefreshLayout swipeContainer) {
+      RelativeLayout rootView, RecyclerView rvArticles, SwipeRefreshLayout swipeContainer) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.rootView = rootView;
     this.rvArticles = rvArticles;
     this.swipeContainer = swipeContainer;
   }

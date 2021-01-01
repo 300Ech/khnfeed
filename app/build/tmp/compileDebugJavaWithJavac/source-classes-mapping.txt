@@ -109,8 +109,8 @@ androidx/navigation/R.java
  androidx.navigation.R$string
  androidx.navigation.R$style
  androidx.navigation.R$styleable
-org/jetbrains/anko/generated/sdk27/R.java
- org.jetbrains.anko.generated.sdk27.R
+com/evertschavez/reigndemo/databinding/FragmentArticleListBindingImpl.java
+ com.evertschavez.reigndemo.databinding.FragmentArticleListBindingImpl
 org/jetbrains/anko/supportV4/R.java
  org.jetbrains.anko.supportV4.R
  org.jetbrains.anko.supportV4.R$attr
@@ -253,8 +253,8 @@ org/jetbrains/anko/generated/appcompatV7/R.java
  org.jetbrains.anko.generated.appcompatV7.R$styleable
 androidx/sqlite/db/framework/R.java
  androidx.sqlite.db.framework.R
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
+com/evertschavez/reigndemo/databinding/FragmentArticleListBinding.java
+ com.evertschavez.reigndemo.databinding.FragmentArticleListBinding
 androidx/media/R.java
  androidx.media.R
  androidx.media.R$attr
@@ -610,7 +610,7 @@ androidx/room/R.java
  androidx.room.R$styleable
 com/evertschavez/reigndemo/databinding/ViewArticleListItemBinding.java
  com.evertschavez.reigndemo.databinding.ViewArticleListItemBinding
-com/evertschavez/reigndemo/databinding/FragmentArticleListBindingImpl.java
- com.evertschavez.reigndemo.databinding.FragmentArticleListBindingImpl
-com/evertschavez/reigndemo/databinding/FragmentArticleListBinding.java
- com.evertschavez.reigndemo.databinding.FragmentArticleListBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+org/jetbrains/anko/generated/sdk27/R.java
+ org.jetbrains.anko.generated.sdk27.R

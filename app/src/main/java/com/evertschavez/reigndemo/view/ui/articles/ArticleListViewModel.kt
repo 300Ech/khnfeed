@@ -3,6 +3,7 @@ package com.evertschavez.reigndemo.view.ui.articles
 import androidx.lifecycle.MutableLiveData
 import com.evertschavez.reigndemo.model.ArticleRepository
 import com.evertschavez.reigndemo.model.Item
+import com.evertschavez.reigndemo.model.Item_
 import com.evertschavez.reigndemo.model.database.ObjectBox
 import com.evertschavez.reigndemo.view.base.BaseViewModel
 import io.objectbox.Box
@@ -27,10 +28,17 @@ class ArticleListViewModel : BaseViewModel() {
         }
     }
 
+    // load data from local db
     fun loadFromLocalDb() {
-        // load data from local db
+        dataLoading.value = true
         val storedItems: Box<Item> = ObjectBox.boxStore.boxFor()
-        articleListLive.value = storedItems.all
+
+        val query = storedItems.query().run {
+            orderDesc(Item_.objectID)
+            build()
+        }
+
+        articleListLive.value = query.find()
         dataLoading.value = false
         noData.value = false
     }

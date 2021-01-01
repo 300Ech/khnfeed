@@ -19,6 +19,7 @@ import com.evertschavez.reigndemo.model.DeletedArticle
 import com.evertschavez.reigndemo.model.database.ObjectBox
 import com.evertschavez.reigndemo.view.adapter.ArticleListAdapter
 import com.evertschavez.reigndemo.view.adapter.SwipeToDeleteCallback
+import com.evertschavez.reigndemo.view.utils.Network
 import com.google.android.material.snackbar.Snackbar
 import io.objectbox.Box
 import io.objectbox.kotlin.boxFor
@@ -26,14 +27,18 @@ import kotlinx.android.synthetic.main.fragment_article_list.*
 import org.jetbrains.anko.longToast
 
 class ArticleListFragment : Fragment() {
-
     private lateinit var viewDataBinding: FragmentArticleListBinding
     private lateinit var articlesAdapter: ArticleListAdapter
     val deleteItemsBox: Box<DeletedArticle> = ObjectBox.boxStore.boxFor()
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         viewDataBinding = FragmentArticleListBinding.inflate(inflater, container, false).apply {
-            viewmodel = ViewModelProviders.of(this@ArticleListFragment).get(ArticleListViewModel::class.java)
+            viewmodel = ViewModelProviders.of(this@ArticleListFragment)
+                .get(ArticleListViewModel::class.java)
             setLifecycleOwner(viewLifecycleOwner)
         }
         return viewDataBinding.root
@@ -68,7 +73,16 @@ class ArticleListFragment : Fragment() {
     }
 
     private fun fetchData() {
-        viewDataBinding.viewmodel?.fetchArticleList()
+        Network.isNetworkAvailableWithInternetAccess(context!!).observe(this, Observer {
+            if (it != null) {
+                if (it) {
+                    viewDataBinding.viewmodel?.fetchArticleList()
+                } else {
+                    //Network is not available do another work
+                    viewDataBinding.viewmodel?.loadFromLocalDb()
+                }
+            }
+        })
     }
 
     private fun setupObservers() {
@@ -109,7 +123,11 @@ class ArticleListFragment : Fragment() {
                 val deletedItem = DeletedArticle(item.objectID)
                 deleteItemsBox.put(deletedItem)
 
-                val snack = Snackbar.make(swipeContainer, "Article was removed from the list.", Snackbar.LENGTH_LONG)
+                val snack = Snackbar.make(
+                    swipeContainer,
+                    "Article was removed from the list.",
+                    Snackbar.LENGTH_LONG
+                )
                 snack.setAction("UNDO") {
                     deleteItemsBox.remove(item.objectID)
                     articlesAdapter!!.restoreItem(item, position)
